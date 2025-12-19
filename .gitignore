@@ -1,2 +1,16 @@
+# Compiled binaries
 *.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+
+# VS Code temp files
 tempCodeRunnerFile.cpp
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
