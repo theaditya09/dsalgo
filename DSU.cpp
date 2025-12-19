@@ -50,6 +50,10 @@ public:
         }
     }
 
+    void reset(int node){
+        parent[node] = node;
+    }
+
     bool isConnected(int u, int v){
         return findUltimateParent(u) == findUltimateParent(v);
     }
